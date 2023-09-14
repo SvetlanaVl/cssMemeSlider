@@ -5,8 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Css Meme Slider</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="slider__container">
+
+    <input class="slider__input slider__input_first-mem" type="radio" id="first-mem" name="slider-mems" checked>
+    <input class="slider__input slider__input_second-mem" type="radio" id="second-mem" name="slider-mems">
+    <input class="slider__input slider__input_third-mem" type="radio" id="third-mem" name="slider-mems">
+    <input class="slider__input slider__input_fourth-mem" type="radio" id="fourth-mem" name="slider-mems">
+    <input class="slider__input slider__input_fifth-mem" type="radio" id="fifth-mem" name="slider-mems">
+
+    <div class="slider__text__container">
+      <p class="slider__text">Some text 1</p>
+      <p class="slider__text">Some text 2</p>
+      <p class="slider__text">Some text 3</p>
+      <p class="slider__text">Some text 4</p>
+      <p class="slider__text">Some text 5</p>
+    </div>
+
+    <div class="slider__img">
+      <img src="./img/1.jpg" alt="mem">
+      <img src="./img/1.jpg" alt="mem">
+      <img src="./img/1.jpg" alt="mem">
+      <img src="./img/1.jpg" alt="mem">
+      <img src="./img/1.jpg" alt="mem">
+    </div>
+
+    <div class="slider__pagination">
+      <label for="first-mem"></label>
+      <label for="second-mem"></label>
+      <label for="third-mem"></label>
+      <label for="fourth-mem"></label>
+      <label for="fifth-mem"></label>
+    </div>
+
+  </div>
 </body>
 </html>
