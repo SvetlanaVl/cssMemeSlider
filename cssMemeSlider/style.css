@@ -16,8 +16,9 @@
   grid-column: 1;
   grid-row: 2;
   display: flex;
+  gap: 1%;
   align-items: center;
-  width: 76px;
+  width: 15%;
   overflow: hidden;
 }
 
@@ -30,6 +31,7 @@
   grid-column: 1 / 3;
   grid-row: 1;
   display: flex;
+  gap: 2%;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -50,4 +52,56 @@ label {
   border-radius: 50%;
   background-color: aqua;
   cursor: pointer;
+}
+
+
+
+.slider__input_first-mem:checked ~ .slider__text__container .slider__text {
+  transform: translate(0);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_first-mem:checked ~ .slider__img img {
+  transform: translate(0);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_second-mem:checked ~ .slider__text__container .slider__text {
+  transform: translate(-101%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_second-mem:checked ~ .slider__img img {
+  transform: translate(-102%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_third-mem:checked ~ .slider__text__container .slider__text {
+  transform: translate(-202%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_third-mem:checked ~ .slider__img img {
+  transform: translate(-204%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_fourth-mem:checked ~ .slider__text__container .slider__text {
+  transform: translate(-303%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_fourth-mem:checked ~ .slider__img img {
+  transform: translate(-306%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_fifth-mem:checked ~ .slider__text__container .slider__text {
+  transform: translate(-404%);
+  transition: all 0.5s linear 0.5s;
+}
+
+.slider__input_fifth-mem:checked ~ .slider__img img {
+  transform: translate(-408%);
+  transition: all 0.5s linear 0.5s;
 }
