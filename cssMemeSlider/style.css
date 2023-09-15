@@ -105,13 +105,13 @@ img {
   background-color: #d1d49d;
 }
 
-.slider__input:checked ~ .slider__pagination .slider__pagination__label__container .slider__pagination__label:hover {
+.slider__input:checked ~ .slider__pagination .slider__pagination__label__container:hover .slider__pagination__label {
   border: 0.32em solid #b853ed;
   width: 1.4em;
   height: 1.4em;
 }
 
-.slider__input:checked ~ .slider__pagination .slider__pagination__label__container .slider__pagination__label:active {
+.slider__input:checked ~ .slider__pagination .slider__pagination__label__container:active .slider__pagination__label {
   border: 0.32em solid #8014be;
   width: 1.4em;
   height: 1.4em;
