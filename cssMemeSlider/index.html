@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Meme Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1 class="header">Css Meme Slider</h1>
+  <div class="slider__container">
+
+    <input class="slider__input slider__input_first-mem" type="radio" id="first-mem" name="slider-mems" checked>
+    <input class="slider__input slider__input_second-mem" type="radio" id="second-mem" name="slider-mems">
+    <input class="slider__input slider__input_third-mem" type="radio" id="third-mem" name="slider-mems">
+    <input class="slider__input slider__input_fourth-mem" type="radio" id="fourth-mem" name="slider-mems">
+    <input class="slider__input slider__input_fifth-mem" type="radio" id="fifth-mem" name="slider-mems">
+
+    <div class="slider__text__container">
+      <p class="slider__text">Джун и Мидл</p>
+      <p class="slider__text">Что у меня есть?</p>
+      <p class="slider__text">Ты выполнил таск?</p>
+      <p class="slider__text">Я разработчик</p>
+      <p class="slider__text">Я чё то нажала</p>
+    </div>
+
+    <div class="slider__img">
+      <img src="./img/img1.png" alt="mem">
+      <img src="./img/img2.png" alt="mem">
+      <img src="./img/img3.png" alt="mem">
+      <img src="./img/img4.png" alt="mem">
+      <img src="./img/img5.png" alt="mem">
+    </div>
+
+    <div class="slider__pagination">
+      <label class="slider__pagination__label__container" for="first-mem">
+        <div class="slider__pagination__label slider__pagination__label__first"></div>
+      </label>
+      <label class="slider__pagination__label__container" for="second-mem">
+        <div class="slider__pagination__label slider__pagination__label__second"></div>
+      </label>
+      <label class="slider__pagination__label__container" for="third-mem">
+        <div class="slider__pagination__label slider__pagination__label__third"></div>
+      </label>
+      <label class="slider__pagination__label__container" for="fourth-mem">
+        <div class="slider__pagination__label slider__pagination__label__fourth"></div>
+      </label>
+      <label class="slider__pagination__label__container" for="fifth-mem">
+        <div class="slider__pagination__label slider__pagination__label__fifth"></div>
+      </label>
+    </div>
+
+  </div>
+</body>
+</html>
