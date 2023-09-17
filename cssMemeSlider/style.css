@@ -108,10 +108,22 @@ img {
   background-color: #d1d49d;
 }
 
-.slider__input:checked ~ .slider__pagination .slider__pagination__label__container:hover .slider__pagination__label {
+/* .slider__input:checked ~ .slider__pagination .slider__pagination__label__container:hover .slider__pagination__label {
   border: 0.32em solid #b853ed;
   width: 1.4em;
   height: 1.4em;
+} */
+
+@media (hover: hover) and (pointer: fine) {
+  .slider__input:checked ~ .slider__pagination .slider__pagination__label__container:hover .slider__pagination__label {
+    border: 0.32em solid #b853ed;
+    width: 1.4em;
+    height: 1.4em;
+  }
+
+  .slider__pagination__label__container:hover .slider__pagination__label {
+    background-color: #b853ed;
+  }
 }
 
 .slider__input:checked ~ .slider__pagination .slider__pagination__label__container:active .slider__pagination__label {
@@ -120,9 +132,9 @@ img {
   height: 1.4em;
 }
 
-.slider__pagination__label__container:hover .slider__pagination__label {
+/* .slider__pagination__label__container:hover .slider__pagination__label {
   background-color: #b853ed;
-}
+} */
 
 .slider__pagination__label__container:active .slider__pagination__label {
   background-color: #8014be;
@@ -230,3 +242,15 @@ img {
     height: 1.5em;
   }
 }
+
+/* @media (hover: hover) and (pointer: fine) {
+  .slider__input:checked ~ .slider__pagination .slider__pagination__label__container:hover .slider__pagination__label {
+    border: 0.32em solid #b853ed;
+    width: 1.4em;
+    height: 1.4em;
+  }
+
+  .slider__pagination__label__container:hover .slider__pagination__label {
+    background-color: #b853ed;
+  }
+} */
